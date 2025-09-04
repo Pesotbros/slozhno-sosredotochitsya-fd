@@ -39,7 +39,6 @@
 .header__theme-menu-button {
   padding: 4px 13px;
   background-color: inherit;
-  border: none;
   font-size: var(--regular-font-size);
   line-height: var(--regular-line-height);
   text-transform: lowercase;
