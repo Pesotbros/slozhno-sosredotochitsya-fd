@@ -1,5 +1,5 @@
 .page {
-  font-family: var(--project-font-family);
+  font-family: var(--project-font-family), sans-serif;
   font-weight: bold;
   font-size: var(--regular-font-size);
   line-height: 1.3;
@@ -45,6 +45,7 @@
   text-transform: lowercase;
   color: var(--button-color);
   cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .header__theme-menu-button_active {
@@ -110,10 +111,7 @@
   margin-top: var(--section-child-margin);
 }
 
-.section_what {
-  margin-top: 50px;
-}
-
+.section_what,
 .section_how {
   margin-top: 50px;
 }
@@ -272,11 +270,7 @@
     padding-top: 20px;
   }
 
-  .section_what {
-    margin-top: 0;
-    padding-top: 30px;
-  }
-
+  .section_what,
   .section_how {
     margin-top: 0;
     padding-top: 30px;
@@ -288,10 +282,6 @@
 @media (width >= 768px) {
   .huge_title {
     font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem);
-  }
-
-  .rec_empty {
-    --rec_empty_x_pos: 35px;
   }
 
   .header {
@@ -393,10 +383,6 @@
 }
 
 @media (width >= 1024px) {
-  .rec_empty {
-    --rec_empty_x_pos: 40px;
-  }
-
   .header {
     margin-block-end: 0;
     --min-height: 768px;
@@ -453,16 +439,6 @@
   .title {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
-  }
-
-  .div_2 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "question_what ."
-      "answers_what answers_what";
-    gap: 10px;
   }
 
   .question_what {
