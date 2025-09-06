@@ -1,14 +1,4 @@
 :root {
-  --basic-pink: #ff8dcb;
-  --title-pink: #ffc2e6;
-  --title-violet: #db00ff;
-  --almost-white-bg: #fff1f7;
-  --real-red: #ff0070;
-  --approximately-black: #000028;
-  --almost-black: #353430;
-  --answer-color: #f1b2ce;
-  --opacity-color-dark: #ff007066;
-  --opacity-color-light: #32312d66;
   --regular-font-size: 18px;
   --regular-line-height: 100%;
   --regular-gap: 10px;
@@ -18,4 +8,62 @@
   --section-child-margin: 40px;
   --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
   --corner-thickness: 1px;
+
+  --page-bg-color-dark: #000028;
+  --accent-color-dark: #ff0070;
+  --title-color-dark: #db00ff;
+  --header-text-bg-color-dark: #ff0070;
+  --header-text-color-dark: #000028;
+  --question-bg-color-dark: #000028;
+  --question-color-dark: #ff0070;
+  --answer-title-bg-color-dark: #ff0070;
+  --answer-title-color-dark: #000028;
+  --answer-text-bg-color-dark: #000028;
+  --answer-text-color-dark: #f1b2ce;
+  --advice-title-color-dark: #000028;
+  --advice-title-bg-color-dark: #ff0070;
+  --button-color-dark: #ff0070;
+  --rec-color-dark: #ff0070;
+  --border-color-opacity-dark: #ff007066;
+  --outline-color-dark: #ff0070;
+  --background-image-dark: url("../images/cover-image-dark.png");
+  --deco-color-dark: #ff0070;
+
+  --accent-color-light: #ff8dcb;
+  --title-color-light: #ffc2e6;
+  --page-bg-color-light: #fff1f7;
+  --header-text-bg-color-light: #ff8dcb;
+  --header-text-color-light: #000028;
+  --question-bg-color-light: #fff1f7;
+  --question-color-light: #000028;
+  --answer-title-bg-color-light: #ff8dcb;
+  --answer-title-color-light: #000028;
+  --answer-text-bg-color-light: #fff1f7;
+  --answer-text-color-light: #000028;
+  --advice-title-color-light: #000028;
+  --advice-title-bg-color-light: #ff8dcb;
+  --button-color-light: #000028;
+  --border-color-opacity-light: #32312d66;
+  --outline-color-light: #000028;
+  --background-image-light: url("../images/cover-image-light.png");
+  --deco-color-light: #000028;
+
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --page-bg-color: #fff1f7;
+  --header-text-bg-color: #ff8dcb;
+  --header-text-color: #000028;
+  --question-bg-color: #fff1f7;
+  --question-color:  #000028;
+  --answer-title-bg-color: #ff8dcb;
+  --answer-title-color: #000028;
+  --answer-text-bg-color: #fff1f7;
+  --answer-text-color: #000028;
+  --advice-title-bg-color:  #ff8dcb;
+  --advice-title-color: #000028;
+  --button-color: #000028;
+  --border-color-opacity: #32312D66;
+  --outline-color: #000028;
+  --background-image:  url("../images/cover-image-light.png");
+  --deco-color: #000028;
 }

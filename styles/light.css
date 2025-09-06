@@ -1,21 +1,53 @@
+  @media (prefers-color-scheme: light) { 
+  :root {
+  --accent-color: var(--accent-color-light);
+  --title-color: var(--title-color-light);
+  --page-bg-color: var(--page-bg-color-light);
+  --header-text-bg-color: var(--header-text-bg-color-light);
+  --header-text-color: var(--header-text-color-light);
+  --question-bg-color: var(--question-bg-color-light);
+  --question-color: var(--question-color-light);
+  --answer-title-bg-color: var(--answer-title-bg-color-light);
+  --answer-title-color: var(--answer-title-color-light);
+  --answer-text-bg-color: var(--answer-text-bg-color-light);
+  --answer-text-color: var(--answer-text-color-light);
+  --advice-title-bg-color: var(--advice-title-bg-color-light);
+  --advice-title-color: var(--advice-title-color-light);
+  --button-color: var(--button-color-light);
+  --border-color-opacity: var(--border-color-opacity-light);
+  --outline-color: var(--outline-color-light);
+  --background-image: var(--background-image-light);
+  --deco-color: var(--deco-color-light);
+  }
+
+  .rec_empty::before {
+    display: none;
+  }
+  
+  .rec_empty::after {
+    display: none;
+  }
+}
+
 :root.theme-light {
-  --accent-color: var(--basic-pink);
-  --title-color: var(--title-pink);
-  --page-bg-color: var(--almost-white-bg);
-  --header-text-bg-color: var(--basic-pink);
-  --header-text-color: var(--almost-black);
-  --question-bg-color: var(--almost-white-bg);
-  --question-color: var(--almost-black);
-  --answer-title-bg-color: var(--basic-pink);
-  --answer-title-color: var(--almost-black);
-  --answer-text-bg-color: var(--almost-white-bg);
-  --answer-text-color: var(--almost-black);
-  --advice-title-bg-color: var(--basic-pink);
-  --advice-title-color: var(--almost-black);
-  --button-color: var(--almost-black);
-  --border-color-opacity: var(--opacity-color-light);
-  --background-image: url("../images/cover-image-light.png");
-  --deco-color: var(--almost-black);
+  --accent-color: var(--accent-color-light);
+  --title-color: var(--title-color-light);
+  --page-bg-color: var(--page-bg-color-light);
+  --header-text-bg-color: var(--header-text-bg-color-light);
+  --header-text-color: var(--header-text-color-light);
+  --question-bg-color: var(--question-bg-color-light);
+  --question-color: var(--question-color-light);
+  --answer-title-bg-color: var(--answer-title-bg-color-light);
+  --answer-title-color: var(--answer-title-color-light);
+  --answer-text-bg-color: var(--answer-text-bg-color-light);
+  --answer-text-color: var(--answer-text-color-light);
+  --advice-title-bg-color: var(--advice-title-bg-color-light);
+  --advice-title-color: var(--advice-title-color-light);
+  --button-color: var(--button-color-light);
+  --border-color-opacity: var(--border-color-opacity-light);
+  --outline-color: var(--outline-color-light);
+  --background-image: var(--background-image-light);
+  --deco-color: var(--deco-color-light);
 }
 
 .theme-light .rec_empty::before {

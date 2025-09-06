@@ -44,7 +44,7 @@
   text-transform: lowercase;
   color: var(--button-color);
   cursor: pointer;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid transparent
 }
 
 .header__theme-menu-button_active {
@@ -61,7 +61,7 @@
 }
 
 .header__theme-menu-button:focus {
-  outline: none;
+  outline: 1px solid var(--outline-color);
 }
 
 .header__theme-menu {

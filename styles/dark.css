@@ -1,53 +1,53 @@
-@media (prefers-color-scheme: dark) {
-  :root {
-  --page-bg-color: var(--approximately-black);
-  --accent-color: var(--real-red);
-  --title-color: var(--title-violet);
-  --header-text-bg-color: var(--real-red);
-  --header-text-color: var(--approximately-black);
-  --question-bg-color: var(--approximately-black);
-  --question-color: var(--real-red);
-  --answer-title-bg-color: var(--real-red);
-  --answer-title-color: var(--approximately-black);
-  --answer-text-bg-color: var(--approximately-black);
-  --answer-text-color: var(--answer-color);
-  --advice-title-bg-color: var(--real-red);
-  --advice-title-color: var(--approximately-black);
-  --button-color: var(--real-red);
-  --rec-color: var(--real-red);
-  --border-color-opacity: var(--opacity-color);
-  --background-image: url("../images/cover-image-dark.png");
-  --deco-color: var(--real-red);
-  }
-
-  .rec_empty::before {
+@media (prefers-color-scheme: dark) { 
+   :root {
+  --page-bg-color: var(--page-bg-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --title-color: var(--title-color-dark);
+  --header-text-bg-color: var(--header-text-bg-color-dark);
+  --header-text-color: var(--header-text-color-dark);
+  --question-bg-color: var(--question-bg-color-dark);
+  --question-color: var(--question-color-dark);
+  --answer-title-bg-color: var(--answer-title-bg-color-dark);
+  --answer-title-color: var(--answer-title-color-dark);
+  --answer-text-bg-color: var(--answer-text-bg-color-dark);
+  --answer-text-color: var(--answer-text-color-dark);
+  --advice-title-bg-color: var(--advice-title-bg-color-dark);
+  --advice-title-color: var(--advice-title-color-dark);
+  --button-color: var(--button-color-dark);
+  --rec-color: var(--rec-color-dark);
+  --border-color-opacity: var(--border-color-opacity-dark);
+  --outline-color: var(--outline-color-dark);
+  --background-image: var(--background-image-dark);
+  --deco-color: var(--deco-color-dark);
+  }  
+ .rec_empty::before { 
     display: inline-block;
   }
-
   .rec_empty::after {
     display: inline-block;
   }
 }
 
 :root.theme-dark {
-  --page-bg-color: var(--approximately-black);
-  --accent-color: var(--real-red);
-  --title-color: var(--title-violet);
-  --header-text-bg-color: var(--real-red);
-  --header-text-color: var(--approximately-black);
-  --question-bg-color: var(--approximately-black);
-  --question-color: var(--real-red);
-  --answer-title-bg-color: var(--real-red);
-  --answer-title-color: var(--approximately-black);
-  --answer-text-bg-color: var(--approximately-black);
-  --answer-text-color: var(--answer-color);
-  --advice-title-bg-color: var(--real-red);
-  --advice-title-color: var(--approximately-black);
-  --button-color: var(--real-red);
-  --rec-color: var(--real-red);
-  --border-color-opacity: var(--opacity-color);
-  --background-image: url("../images/cover-image-dark.png");
-  --deco-color: var(--real-red);
+  --page-bg-color: var(--page-bg-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --title-color: var(--title-color-dark);
+  --header-text-bg-color: var(--header-text-bg-color-dark);
+  --header-text-color: var(--header-text-color-dark);
+  --question-bg-color: var(--question-bg-color-dark);
+  --question-color: var(--question-color-dark);
+  --answer-title-bg-color: var(--answer-title-bg-color-dark);
+  --answer-title-color: var(--answer-title-color-dark);
+  --answer-text-bg-color: var(--answer-text-bg-color-dark);
+  --answer-text-color: var(--answer-text-color-dark);
+  --advice-title-bg-color: var(--advice-title-bg-color-dark);
+  --advice-title-color: var(--advice-title-color-dark);
+  --button-color: var(--button-color-dark);
+  --rec-color: var(--rec-color-dark);
+  --border-color-opacity: var(--border-color-opacity-dark);
+  --outline-color: var(--outline-color-dark);
+  --background-image: var(--background-image-dark);
+  --deco-color: var(--deco-color-dark);
 }
 
 .theme-dark .rec_empty::before {
