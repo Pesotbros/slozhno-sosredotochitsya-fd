@@ -54,16 +54,16 @@
   --header-text-bg-color: #ff8dcb;
   --header-text-color: #000028;
   --question-bg-color: #fff1f7;
-  --question-color:  #000028;
+  --question-color: #000028;
   --answer-title-bg-color: #ff8dcb;
   --answer-title-color: #000028;
   --answer-text-bg-color: #fff1f7;
   --answer-text-color: #000028;
-  --advice-title-bg-color:  #ff8dcb;
+  --advice-title-bg-color: #ff8dcb;
   --advice-title-color: #000028;
   --button-color: #000028;
-  --border-color-opacity: #32312D66;
+  --border-color-opacity: #32312d66;
   --outline-color: #000028;
-  --background-image:  url("../images/cover-image-light.png");
+  --background-image: url("../images/cover-image-light.png");
   --deco-color: #000028;
 }

@@ -44,7 +44,7 @@
   text-transform: lowercase;
   color: var(--button-color);
   cursor: pointer;
-  border: 1px solid transparent
+  border: 1px solid transparent;
 }
 
 .header__theme-menu-button_active {
