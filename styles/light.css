@@ -1,4 +1,5 @@
   @media (prefers-color-scheme: light) { 
+    
   :root {
   --accent-color: var(--accent-color-light);
   --title-color: var(--title-color-light);
